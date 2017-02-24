@@ -1,0 +1,34 @@
+<!-- Always shows a header, even in smaller screens. -->
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+  <header class="mdl-layout__header">
+    <div class="mdl-layout__header-row">
+      <!-- Title -->
+      <span class="mdl-layout-title">알송 가사 자막 변환</span>
+      <!-- Add spacer, to align navigation to the right -->
+      <div class="mdl-layout-spacer"></div>
+    </div>
+  </header>
+  <main class="mdl-layout__content">
+    <div class="page-content">
+
+        <form accept-charset="UTF-8" action="/home/search" method="get">
+          <div class="mdl-textfield mdl-js-textfield">
+            <input class="mdl-textfield__input" type="text" id="al_title" name = "al_title">
+            <label class="mdl-textfield__label" for="al_title">노래 제목...</label>
+          </div>
+          <div class="mdl-textfield mdl-js-textfield">
+            <input class="mdl-textfield__input" type="text" id="al_artist" name = "al_artist">
+            <label class="mdl-textfield__label" for="al_artist">가수...</label>
+          </div>
+          <button type="submit" class="mdl-button mdl-js-button mdl-button--accent mdl-js-ripple-effect">
+            자막 추출
+          </button>
+        </form>
+
+
+
+
+
+    </div>
+  </main>
+</div>
